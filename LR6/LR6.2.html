@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LR6.2</title>
+    <link rel="stylesheet" href="LR6.2.css">
+</head>
+
+<body>
+    <header>
+            <h2>TaskList</h2>
+    </header>
+  
+    <main>
+        <section>
+            <h2>Sort</h2>
+            <div id="sort-div">
+                <button data-sort="name">Sort by Name</button>
+                <button data-sort="dateOfCreating">Sort by Created</button>
+                <button data-sort="dateOfUpdating">Sort by Updated</button>
+                <button data-sort="">Reset Sort</button>
+            </div>
+        </section>
+        <section>
+            <form id="add-form">
+                <input type="text" name="task-name-input" required>
+                <button type="submit">Add</button>
+            </form>
+        </section>
+
+        <section>
+            <div id = tasks-container></div>
+        </section>
+
+        </div>
+    </main>
+</body>
+
+<script src="LR6.2.js"></script>
